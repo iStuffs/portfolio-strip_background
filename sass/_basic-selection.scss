@@ -1,0 +1,16 @@
+::-moz-selection {
+  color: white;
+  background-color: red;
+  text-shadow: none;
+}
+::selection {
+  color: #fff;
+  background-color: rgba(#333,.5);
+  text-shadow: none;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}

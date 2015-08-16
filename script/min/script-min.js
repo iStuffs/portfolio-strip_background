@@ -1,0 +1,1 @@
+$(window).scroll(function(){var o=$(window).scrollTop();$("#bg-scroll").css("background-position","90% -"+o+"px")});
