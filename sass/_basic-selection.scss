@@ -1,11 +1,14 @@
+$color-text: white;
+$color-background: rgba(red,.8);
+
 ::-moz-selection {
-  color: white;
-  background-color: red;
+  color: $color-text;
+  background-color: $color-background;
   text-shadow: none;
 }
 ::selection {
-  color: #fff;
-  background-color: rgba(#333,.5);
+  color: $color-text;
+  background-color: $color-background;
   text-shadow: none;
 }
 img::selection {
